@@ -1,0 +1,2 @@
+The NodejS has been deployed to an Amazon Web Services EC2. 
+The API basically connects to the EC2 MYSQL instance and fetch all the rows of the table and is populated in the JSON format which is readable from the Mobile Application
