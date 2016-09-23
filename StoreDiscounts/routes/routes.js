@@ -22,11 +22,11 @@ module.exports = function(app) {
      var msg = ''; 
           function handleDisconnect() {
           var connection = msql.createConnection({
-               host : 'mydbase.cwgnanpueibv.us-east-1.rds.amazonaws.com',
-               user : 'indra',
-               password : 'qqqqqqqq',
+               host : 'localhost',
+               user : 'user',
+               password : 'password',
                port : '3306',
-               database: "discount_data"
+               database: "databasename"
           });
           connection.connect(function(err){
               if(err){
