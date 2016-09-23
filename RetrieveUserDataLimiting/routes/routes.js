@@ -27,11 +27,11 @@ module.exports = function(app) {
       var sortname = req.params.sortname;
           function handleDisconnect() {
           var connection = msql.createConnection({
-               host : 'localhost',
-               user : 'user',
-               password : 'password',
+               host : 'mydbase.cwgnanpueibv.us-east-1.rds.amazonaws.com',
+               user : 'indra',
+               password : 'qqqqqqqq',
                port : '3306',
-               database: "databasename"
+               database: "USER_MOCK_DATA"
           });
           connection.connect(function(err){
               if(err){
@@ -63,11 +63,11 @@ module.exports = function(app) {
       var page = req.params.pageno
           function handleDisconnect() {
           var connection = msql.createConnection({
-               host : 'localhost',
-               user : 'user',
-               password : 'password',
+               host : 'mydbase.cwgnanpueibv.us-east-1.rds.amazonaws.com',
+               user : 'indra',
+               password : 'qqqqqqqq',
                port : '3306',
-               database: "databasename"
+               database: "USER_MOCK_DATA"
           });
           connection.connect(function(err){
               if(err){
