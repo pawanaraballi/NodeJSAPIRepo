@@ -36,9 +36,9 @@ module.exports = function(app) {
 
         function handleDisconnect() {
           var connection = msql.createConnection({
-               host : 'mydbase.cwgnanpueibv.us-east-1.rds.amazonaws.com',
-                user : 'indra',
-                password : 'qqqqqqqq',
+               host : 'localhost',
+                user : 'user',
+                password : 'password',
                 port : '3306',
                database: "DragAndDrop"
           });
@@ -76,9 +76,9 @@ module.exports = function(app) {
       var sortname = req.params.sortname;
           function handleDisconnect() {
           var connection = msql.createConnection({
-               host : 'mydbase.cwgnanpueibv.us-east-1.rds.amazonaws.com',
-                user : 'indra',
-                password : 'qqqqqqqq',
+               host : 'localhost',
+                user : 'user',
+                password : 'password',
                 port : '3306',
                database: "DragAndDrop"
           });
