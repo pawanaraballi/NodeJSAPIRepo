@@ -10,10 +10,11 @@ var msql = require('mysql');
 
 function handleDisconnect() {
 var connection = msql.createConnection({
-	host : 'localhost',
-  user : 'user',
-  password : 'password',
-  port : '3306'
+	host : 'mydbase.cwgnanpueibv.us-east-1.rds.amazonaws.com',
+  user : 'indra',
+  password : 'qqqqqqqq',
+  port : '3306',
+  database: "DragAndDrop"
 });
 connection.connect(function(err){
     if(err){
